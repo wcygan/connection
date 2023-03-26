@@ -1,0 +1,10 @@
+[package]
+name = "connection"
+version = "0.1.0"
+edition = "2021"
+authors = ["Will Cygan <wcygan.io@gmail.com>"]
+description = "A TCP connection that can read and write serializable data"
+categories = ["asynchronous", "network-programming"]
+keywords = ["io", "tcp", "serialization"]
+
+[dependencies]
