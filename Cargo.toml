@@ -6,5 +6,6 @@ authors = ["Will Cygan <wcygan.io@gmail.com>"]
 description = "A TCP connection that can read and write serializable data"
 categories = ["asynchronous", "network-programming"]
 keywords = ["io", "tcp", "serialization"]
+license = "MIT"
 
 [dependencies]
