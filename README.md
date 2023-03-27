@@ -13,7 +13,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-connection = "0.2.2"
+connection = "0.2.3"
 ```
 
 You can create a `Connection` by connecting like so:
