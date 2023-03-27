@@ -7,6 +7,7 @@ description = "A TCP connection that can read and write serializable data"
 categories = ["asynchronous", "network-programming"]
 keywords = ["io", "tcp", "serialization"]
 license = "MIT"
+exclude = ["/.github"]
 
 [[test]]
 name = "test"
