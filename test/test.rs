@@ -16,7 +16,7 @@ mod tests {
     use tokio::net::TcpListener;
 
     async fn setup() -> (TcpListener, Connection) {
-        let listener = TcpListener::bind("0.0.0.0:0").await.unwrap();
+        let listener = TcpListener::bind("127.0.0.1:0").await.unwrap();
         let addr = listener.local_addr().unwrap();
         let conn = Connection::dial(addr).await.unwrap();
         (listener, conn)
