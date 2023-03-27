@@ -1,6 +1,6 @@
 [package]
 name = "connection"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["Will Cygan <wcygan.io@gmail.com>"]
 description = "A TCP connection that can read and write serializable data"
