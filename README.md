@@ -4,6 +4,7 @@
 [<img alt="crates.io" src="https://img.shields.io/crates/v/connection.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/connection)
 [<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-connection-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/connection)
 [<img alt="build status" src="https://img.shields.io/github/actions/workflow/status/wcygan/connection/test.yml?branch=main&style=for-the-badge" height="20">](https://github.com/wcygan/connection/actions?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/wcygan/connection/branch/main/graph/badge.svg?token=CSWUVFE1R7)](https://codecov.io/gh/wcygan/connection)
 
 A TCP-based connection that can send & receive serializable objects.
 
@@ -13,7 +14,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-connection = "0.2.3"
+connection = "0.2.4"
 ```
 
 You can create a `Connection` by connecting like so:
