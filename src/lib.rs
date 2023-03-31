@@ -223,6 +223,7 @@ impl Connection {
     pub async fn read<T: DeserializeOwned>(&mut self) -> Result<Option<T>, ConnectionError> {
         loop {
             if let Some(value) = self.parse_value()? {
+                self.buffer.clear();
                 return Ok(Some(value));
             }
 
